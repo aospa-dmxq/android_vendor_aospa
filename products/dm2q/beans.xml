@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <!-- platform -->
+  <project path="hardware/qcom/display" name="aospa-dmxq/android_hardware_qcom_display" remote="github" revision="vauxite-8550" />
+  <project path="hardware/qcom/gps" name="aospa-dmxq/android_hardware_qcom_gps" remote="github" revision="vauxite-8550" />
+  <project path="hardware/qcom/media" name="aospa-dmxq/android_hardware_qcom_media" remote="github" revision="vauxite-8550" />
+  <project path="vendor/qcom/opensource/agm" name="aospa-dmxq/android_vendor_qcom_opensource_agm" remote="github" revision="vauxite-8550" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="aospa-dmxq/android_hardware_qcom_audio" remote="github" revision="vauxite-8550" />
+  <project path="vendor/qcom/opensource/pal" name="aospa-dmxq/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="vauxite-8550" />
+
+  <!-- Device Dependencies
+  <project path="device/samsung/dm2q" name="AOSPA/android_device_samsung_dm2q" remote="aospa" revision="vauxite" />
+  <project path="device/samsung/sm8550-common" name="AOSPA/android_device_samsung_sm8550-common" remote="aospa" revision="vauxite" />
+  <project path="hardware/samsung" name="AOSPA/android_hardware_samsung" remote="aospa" revision="vauxite" />
+  <project path="vendor/samsung/dm2q" name="proprietary_vendor_samsung_dm2q" remote="blobs" revision="vauxite" clone-depth="1" />
+  <project path="vendor/samsung/sm8550-common" name="proprietary_vendor_samsung_sm8550-common" remote="blobs" revision="vauxite" clone-depth="1" /> -->
+</manifest>
